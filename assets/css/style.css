@@ -143,6 +143,7 @@ ul li, ul li a {
 .send-email {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .send-email .content {
@@ -178,7 +179,7 @@ label {
 }
 
 .footer-container {
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding-top: 8em;
     padding-bottom: 8em;
@@ -276,6 +277,13 @@ label {
 @media (min-width: 576px) {
     .venn-img img {
         width: 300px;
+    }
+
+    .send-email .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
     }
 }
 
