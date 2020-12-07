@@ -76,17 +76,17 @@ ul li, ul li a {
 /* ================Bottom navbar =================== */
 .bottom-nav {
     width: 90%;
-    color: whitesmoke;
+    color:var(--primary-text-color);
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
-    font-size: 10px;
+    font-size: 25px;
     font-weight: 700;
     margin-left: auto;
     margin-right: auto;
 }
 
-.menushow{
+.search-icon-show{
     display: none;
 }
 
@@ -94,13 +94,8 @@ ul li, ul li a {
     color: red;
 }
 
-
-.fas {
-    font-size: 30px;
-}
-
-.ri {
-    padding-right: 15px;
+.bottom-nav a {
+    color: var(--primary-text-color);
 }
 
 
@@ -121,21 +116,6 @@ ul li, ul li a {
     height: auto;
 }
 
-.services-text {
-    width: 100%;
-}
-.contact {
-    padding-top: 8em;
-    padding-bottom: 8em;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .service-body {
     display: flex;
     justify-content: center;
@@ -143,12 +123,33 @@ ul li, ul li a {
     flex-direction: column;
 }
 
-.col-bg-red {
-    background-color: #eb3505;
+.services-text {
+    width: 100%;
 }
 
-.col-bg-orange {
-    background-color: #f96526;
+
+/* ================= Blog =============== */
+.blog {
+    background-color: #f8f5f2;
+}
+
+
+/* ============== Contact Section ============== */
+.contact {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.send-email {
+    display: flex;
+    justify-content: space-around;
+}
+
+.send-email .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 label {
@@ -156,14 +157,17 @@ label {
     border-radius: 50%;
 }
 
+.col-bag-red {
+    background-color: #eb3505;
+}
+
+.col-bag-orange {
+    background-color: #f96526;
+}
+
 .banner-img img{
     width: 100%;
     height: 100%;
-}
-
-/* ================= Blog =============== */
-.blog {
-    background-color: #f8f5f2;
 }
 
 
@@ -185,17 +189,6 @@ label {
     font-size: 4em;
     color: var(--primary-text-color);
 }
-
-.card-body h3 {
-    font-size: 1.4em;
-    font-weight: 400;
-}
-
-.card-body span {
-    color: var(--secondary-color);
-    padding-right: 10px;
-}
-
 
 
 /* ============== Components ============== */
@@ -231,6 +224,16 @@ label {
     border-radius: 4px;
 }
 
+.card-body h3 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.card-body span {
+    color: var(--secondary-color);
+    padding-right: 10px;
+}
+
 
 /*
 ======================== Helpers =============================
@@ -249,11 +252,7 @@ label {
     margin-right: 4em;
 }
 
-.sp90 {
-    width: 90%;
-}
-
-.flex-end {
+.flex-center {
     display: flex;
     justify-content: center;
 }
@@ -272,4 +271,39 @@ label {
 
 .padding-8 {
     padding: 8em 3em;
+}
+
+@media (min-width: 576px) {
+    .venn-img img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar ul.hide{
+        display: flex;
+    }
+
+    .menuhide {
+        display: none;
+    }
+
+    .search-icon-show {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-text h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .venn-img img{
+        width: 500px;
+    }
 }

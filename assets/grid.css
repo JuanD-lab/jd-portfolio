@@ -58,23 +58,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-
-    .navbar ul.hide{
-        display: flex;
-    }
-
-    .menuhide {
-        display: none;
-    }
-
-    .menushow {
-        display: flex;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-
+    
     .col-md-1 {
         width: 8.33%;
     }
@@ -118,15 +102,6 @@
     .row {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .banner-text h1 {
-        font-size: 100px;
-        text-align: center;
-    }
-
-    .venn-img img{
-        width: 500px;
     }
 
     .col-lg-1 {
