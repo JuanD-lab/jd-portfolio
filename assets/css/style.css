@@ -48,7 +48,7 @@ ul li, ul li a {
 /* ====================== Main banner =================== */
 
 .main {
-    background-image: url(/assets/bag3.jpg);
+    background-image: url(/assets/img/bag3.jpg);
     background-size: cover;
     opacity: 0.9;
     background-repeat: no-repeat;
@@ -73,8 +73,8 @@ ul li, ul li a {
     text-decoration-color: var(--secondary-color);
 }
 
-/* ================Bottom navbar =================== */
-.bottom-nav {
+/* ================Bottom bar =================== */
+.bottom-bar {
     width: 90%;
     color:var(--primary-text-color);
     display: flex;
@@ -90,11 +90,11 @@ ul li, ul li a {
     display: none;
 }
 
-.bottom-nav span {
+.bottom-bar span {
     color: red;
 }
 
-.bottom-nav a {
+.bottom-bar a {
     color: var(--primary-text-color);
 }
 
@@ -113,7 +113,10 @@ ul li, ul li a {
 
 .venn-img{
     max-width: 100%;
-    height: auto;
+}
+
+.venn-img img {
+    width: 100%;
 }
 
 .service-body {
@@ -125,6 +128,11 @@ ul li, ul li a {
 
 .services-text {
     width: 100%;
+}
+
+.big-img img{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -164,11 +172,6 @@ label {
 
 .col-bag-orange {
     background-color: #f96526;
-}
-
-.banner-img img{
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -244,7 +247,7 @@ label {
     margin-top: 10px;
 }
 
-.space-top-20 {
+.space-top-30 {
     margin-top: 30px;
 }
 
@@ -301,7 +304,7 @@ label {
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 5em;
     }
 }
 
